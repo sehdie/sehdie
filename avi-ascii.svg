@@ -1,11 +1,445 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="370" height="360" viewBox="0 0 370 360" role="img" aria-labelledby="title desc">
-  <title id="title">ASCII portrait placeholder</title>
-  <desc id="desc">Add source-photo.jpg and run the portrait scripts to generate the animated portrait.</desc>
-  <rect width="370" height="360" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <text x="24" y="42" fill="#39d353" font-family="monospace" font-size="14">$ make portrait</text>
-  <text x="24" y="76" fill="#c9d1d9" font-family="monospace" font-size="12">Add source-photo.jpg, then run:</text>
-  <text x="24" y="104" fill="#8b949e" font-family="monospace" font-size="11">python scripts/prep_photo.py</text>
-  <text x="24" y="124" fill="#8b949e" font-family="monospace" font-size="11">  source-photo.jpg</text>
-  <text x="24" y="152" fill="#8b949e" font-family="monospace" font-size="11">python scripts/make_ascii_svg.py</text>
-  <text x="24" y="206" fill="#39d353" font-family="monospace" font-size="12">[ portrait will type itself here ]</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="472" height="564" viewBox="0 0 472 564" role="img" aria-labelledby="title desc">
+  <title id="title">Animated ASCII portrait of sehdie</title>
+  <desc id="desc">A monochrome portrait revealed one line at a time.</desc>
+  <rect width="100%" height="100%" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <defs>
+    <clipPath id="row-0"><rect x="14" y="14" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.000s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="24" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-0)">ssssssssssssssssssssccccccccccccccccccc*****+++==-:```````````````````````</text>
+  <rect x="14" y="14" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.000s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.000s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-1"><rect x="14" y="26" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.035s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="36" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-1)">cssssssssssssssssssssssssscccccccccccccccc**++++===-:`````````````````````</text>
+  <rect x="14" y="26" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.035s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.035s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-2"><rect x="14" y="38" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.070s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="48" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-2)">sssssssssssssssssssssssssscscccccccccccccccc**++++===:````````````````````</text>
+  <rect x="14" y="38" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.070s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.070s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-3"><rect x="14" y="50" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.105s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="60" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-3)">ssssssssssssssssssssssssssssssccccccccccccccc***+++===--::````````````````</text>
+  <rect x="14" y="50" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.105s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.105s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-4"><rect x="14" y="62" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.140s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="72" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-4)">ssssssssssssssssssssssssssssssccccccccccccccc*c***+++=-:--::``````````````</text>
+  <rect x="14" y="62" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.140s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.140s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-5"><rect x="14" y="74" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.175s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="84" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-5)">sssssssssssssssssssssssssssssccccccccccccccc**********+===-```````````````</text>
+  <rect x="14" y="74" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.175s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.175s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-6"><rect x="14" y="86" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.210s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="96" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-6)">sssssssssssssssssssssssssssscccccc************ccccc****++=---:````````````</text>
+  <rect x="14" y="86" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.210s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.210s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-7"><rect x="14" y="98" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.245s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="108" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-7)">sssssssssssssssssssssssssccc***++===-----::----===+******+====-:``````````</text>
+  <rect x="14" y="98" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.245s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.245s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-8"><rect x="14" y="110" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.280s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="120" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-8)">sssssssssssssssssssssssscc***++====--:``````....`.``-===++++==---::```````</text>
+  <rect x="14" y="110" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.280s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.280s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-9"><rect x="14" y="122" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.315s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="132" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-9)">ssssssssssssssssssssssssc****++===---::````...`````..```::-===---:````````</text>
+  <rect x="14" y="122" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.315s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.315s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-10"><rect x="14" y="134" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.350s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="144" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-10)">sssssssssssssssssssssssscc********++++++==---:````````....```:-:::````````</text>
+  <rect x="14" y="134" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.350s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.350s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-11"><rect x="14" y="146" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.385s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="156" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-11)">ssssssssssssssssssssssscscccccccc**++==--::::::::::```````...`````````````</text>
+  <rect x="14" y="146" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.385s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.385s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-12"><rect x="14" y="158" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.420s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="168" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-12)">sssssssssssssss###sssssssssscc**++==--::```.......`````:::````````````````</text>
+  <rect x="14" y="158" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.420s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.420s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-13"><rect x="14" y="170" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.455s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="180" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-13)">ssssssssss#############sssscc***++===--:`````````````...```:::````````````</text>
+  <rect x="14" y="170" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.455s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.455s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-14"><rect x="14" y="182" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.490s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="192" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-14)">sssssssss############sssssscc***+====--:`````````````````....`````````````</text>
+  <rect x="14" y="182" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.490s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.490s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-15"><rect x="14" y="194" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.525s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="204" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-15)">ssssssss############sssssscc**+++====--:``````````````````````````````````</text>
+  <rect x="14" y="194" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.525s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.525s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-16"><rect x="14" y="206" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.560s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="216" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-16)">sssssss################ssscc*****+++==--:```.`........`````````:-::----:::</text>
+  <rect x="14" y="206" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.560s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.560s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-17"><rect x="14" y="218" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.595s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="228" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-17)">sssssss################ssssssccc**c**+=++++--=-:::::::`````:--=========--:</text>
+  <rect x="14" y="218" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.595s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.595s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-18"><rect x="14" y="230" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.630s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="240" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-18)">#s##ss###############ssccsssccccccccc*+*****c***++++++==+=++++*****++=--:`</text>
+  <rect x="14" y="230" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.630s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.630s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-19"><rect x="14" y="242" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.665s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="252" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-19)">############scs#sssssssssssc*csssssss#sssc*cccc**+****+++++***+*******+=-:</text>
+  <rect x="14" y="242" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.665s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.665s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-20"><rect x="14" y="254" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.700s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="264" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-20)">###########ssc*sscscssss###sss##sss######ssssscccc**+++*+++--=--+++++==-:`</text>
+  <rect x="14" y="254" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.700s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.700s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-21"><rect x="14" y="266" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.735s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="276" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-21)">############sscsssss#####ssss#%%####%%######ssssc+-::-+++=`...```::::-::``</text>
+  <rect x="14" y="266" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.735s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.735s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-22"><rect x="14" y="278" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.770s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="288" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-22)">#################%%###ssssccc#%%%%%%%%%######sss*`...`---:`````````::::```</text>
+  <rect x="14" y="278" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.770s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.770s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-23"><rect x="14" y="290" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.805s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="300" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-23)">##############%%%%#ssssccccccs##%%%%%%%######ssc=.```:-:``:```````````````</text>
+  <rect x="14" y="290" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.805s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.805s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-24"><rect x="14" y="302" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.840s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="312" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-24)">############%%%%%#ssccccccc**ccs#%%%%%####sssss*`.`:--:--`````````````````</text>
+  <rect x="14" y="302" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.840s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.840s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-25"><rect x="14" y="314" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.875s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="324" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-25)">s#########%%%%%###sccccccc****cs#sss#####sssss*-`:-+===-:`````````````````</text>
+  <rect x="14" y="314" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.875s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.875s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-26"><rect x="14" y="326" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.910s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="336" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-26)">sss######%%%%%###ssscccccccc***cs##########ss*====+++=--::````````````````</text>
+  <rect x="14" y="326" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.910s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.910s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-27"><rect x="14" y="338" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.945s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="348" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-27)">csss####%%%%##ss####ssscccccccccccs######sc*++++++=+===-:`````````````````</text>
+  <rect x="14" y="338" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.945s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.945s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-28"><rect x="14" y="350" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="0.980s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="360" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-28)">sss######%%%%%###%%%####ssssssssssssssscc*********=++=-:``````````````````</text>
+  <rect x="14" y="350" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="0.980s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="0.980s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-29"><rect x="14" y="362" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.015s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="372" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-29)">ssss######%%%%%%%%%%%%%%############ssccccccccc****+=:````````````````````</text>
+  <rect x="14" y="362" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.015s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.015s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-30"><rect x="14" y="374" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.050s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="384" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-30)">cssss############################ssssccssccc**cc*+=-------::::````````````</text>
+  <rect x="14" y="374" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.050s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.050s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-31"><rect x="14" y="386" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.085s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="396" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-31)">csssss##########%%#############sssccsc*ccscc*++**++++++==-:```````````````</text>
+  <rect x="14" y="386" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.085s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.085s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-32"><rect x="14" y="398" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.120s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="408" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-32)">csssssss#########%%%%%%###########scsccsccsscc*cc*++=--:::````````````````</text>
+  <rect x="14" y="398" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.120s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.120s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-33"><rect x="14" y="410" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.155s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="420" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-33)">cssssssss############%%##############scsssccc*+==--:::::`::```````````````</text>
+  <rect x="14" y="410" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.155s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.155s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-34"><rect x="14" y="422" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.190s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="432" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-34)">cssssssssss#######################ssssscc*++====--------:::```````````````</text>
+  <rect x="14" y="422" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.190s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.190s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-35"><rect x="14" y="434" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.225s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="444" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-35)">ccssssssssss####################ssssccc****++++===-----::::```````````````</text>
+  <rect x="14" y="434" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.225s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.225s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-36"><rect x="14" y="446" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.260s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="456" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-36)">ccssssssssssss################ssssccc***++++======-------::::-:.`````````:</text>
+  <rect x="14" y="446" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.260s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.260s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-37"><rect x="14" y="458" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.295s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="468" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-37)">cccssssssssssss############s#ssssscc*cc**++++======---:------=-::`::``:::-</text>
+  <rect x="14" y="458" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.295s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.295s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-38"><rect x="14" y="470" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.330s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="480" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-38)">ccccssssssssssssss##########ssssscccc**+**+++==+++=====-----:-::::----==--</text>
+  <rect x="14" y="470" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.330s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.330s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-39"><rect x="14" y="482" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.365s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="492" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-39)">c*cccccsscccssssssssss######sssssssscccc*****++*+++========--=-:`:=====-::</text>
+  <rect x="14" y="482" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.365s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.365s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-40"><rect x="14" y="494" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.400s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="504" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-40)">c*ccccccccsscscsssssssss#####ssssssssscccccc*++**++++++++=========++++---=</text>
+  <rect x="14" y="494" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.400s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.400s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-41"><rect x="14" y="506" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.435s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="516" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-41)">***cccccccscccsccccssssssssssssssssssssscccccc*****+*++++++=-==++*++==-=++</text>
+  <rect x="14" y="506" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.435s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.435s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-42"><rect x="14" y="518" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.470s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="528" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-42)">*****c*ccccccccccccccccsssssssssssssssssssscccc**c*+**++++*++***+++=+=++**</text>
+  <rect x="14" y="518" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.470s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.470s" fill="freeze"/>
+  </rect>
+  <defs>
+    <clipPath id="row-43"><rect x="14" y="530" width="0" height="12">
+      <animate attributeName="width" from="0" to="444" dur="0.65s" begin="1.505s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <text x="14" y="540" fill="#c9d1d9" font-family="monospace" font-size="10" xml:space="preserve" clip-path="url(#row-43)">*******ccccccccccc***ccccssssssssssssssssssccccccc****++++******++++******</text>
+  <rect x="14" y="530" width="6" height="12" fill="#39d353">
+    <animate attributeName="x" from="14" to="458" dur="0.65s" begin="1.505s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.94;1" dur="0.65s" begin="1.505s" fill="freeze"/>
+  </rect>
 </svg>

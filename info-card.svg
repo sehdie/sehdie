@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="490" height="360" viewBox="0 0 490 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
   <title id="title">Profile information for sehdie</title>
-  <desc id="desc">A terminal-style card with profile role, focus, stack, and highlights.</desc>
+  <desc id="desc">A terminal-style card showing UI/UX design, front-end development, focus areas, technology stack, and highlights.</desc>
   <style>
     @keyframes print-in {
       from { opacity: 0; transform: translateY(5px); }
@@ -8,17 +8,17 @@
     }
     .line { animation: print-in 0.45s ease-out both; }
   </style>
-  <rect width="490" height="360" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <path d="M10 0h470a10 10 0 0 1 10 10v28H0V10A10 10 0 0 1 10 0Z" fill="#161b22"/>
+  <rect width="640" height="360" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M10 0h620a10 10 0 0 1 10 10v28H0V10A10 10 0 0 1 10 0Z" fill="#161b22"/>
   <circle cx="20" cy="19" r="5" fill="#ff5f56"/>
   <circle cx="38" cy="19" r="5" fill="#ffbd2e"/>
   <circle cx="56" cy="19" r="5" fill="#27c93f"/>
   <text x="76" y="24" fill="#8b949e" font-family="monospace" font-size="12">sehdie@github - profile</text>
   <text x="26" y="82" fill="#39d353" font-family="monospace" font-size="14">sehdie@github</text>
-  <text x="26" y="108" fill="#c9d1d9" font-family="monospace" font-size="12">------------------------------</text>
-  <g class="line" style="animation-delay:0ms"><text x="26" y="144" fill="#79c0ff" font-family="monospace" font-size="12">Role</text><text x="142" y="144" fill="#c9d1d9" font-family="monospace" font-size="12">Your role goes here</text></g>
-  <g class="line" style="animation-delay:120ms"><text x="26" y="176" fill="#79c0ff" font-family="monospace" font-size="12">Focus</text><text x="142" y="176" fill="#c9d1d9" font-family="monospace" font-size="12">What you are building</text></g>
-  <g class="line" style="animation-delay:240ms"><text x="26" y="208" fill="#79c0ff" font-family="monospace" font-size="12">Stack</text><text x="142" y="208" fill="#c9d1d9" font-family="monospace" font-size="12">Your tools and languages</text></g>
-  <g class="line" style="animation-delay:360ms"><text x="26" y="240" fill="#79c0ff" font-family="monospace" font-size="12">Highlights</text><text x="142" y="240" fill="#c9d1d9" font-family="monospace" font-size="12">Your work or interests</text></g>
-  <text x="26" y="300" fill="#8b949e" font-family="monospace" font-size="11">Edit scripts/make_info_card.py to personalize this card.</text>
+  <text x="26" y="108" fill="#c9d1d9" font-family="monospace" font-size="12">------------------------------------------------</text>
+  <g class="line" style="animation-delay:0ms"><text x="26" y="144" fill="#79c0ff" font-family="monospace" font-size="12">Role</text><text x="170" y="144" fill="#c9d1d9" font-family="monospace" font-size="12">UI/UX Designer | Front-End Developer | Aspiring Product</text><text x="170" y="161" fill="#c9d1d9" font-family="monospace" font-size="12">Designer</text></g>
+  <g class="line" style="animation-delay:120ms"><text x="26" y="194" fill="#79c0ff" font-family="monospace" font-size="12">Focus</text><text x="170" y="194" fill="#c9d1d9" font-family="monospace" font-size="12">User-centred design, responsive interfaces, design</text><text x="170" y="211" fill="#c9d1d9" font-family="monospace" font-size="12">systems, accessibility</text></g>
+  <g class="line" style="animation-delay:240ms"><text x="26" y="244" fill="#79c0ff" font-family="monospace" font-size="12">Stack</text><text x="170" y="244" fill="#c9d1d9" font-family="monospace" font-size="12">Figma, HTML5, CSS3, JavaScript, React, Python, C, SCSS</text></g>
+  <g class="line" style="animation-delay:360ms"><text x="26" y="286" fill="#79c0ff" font-family="monospace" font-size="12">Highlights</text><text x="170" y="286" fill="#c9d1d9" font-family="monospace" font-size="12">Computer Science graduate | Design + development</text></g>
+  <text x="26" y="337" fill="#8b949e" font-family="monospace" font-size="11">UI/UX Design • Front-End Development • Product Thinking</text>
 </svg>
